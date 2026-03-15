@@ -3,7 +3,7 @@ import numpy as np
 import joblib  # for loading saved model
 
 # Load your trained model
-open_best_model = joblib.load("openprice_model.pkl")  # Replace with your model file name
+open_best_model = joblib.load("openprice_model.pkl") 
 high_best_model = joblib.load("highprice_model.pkl")
 low_best_model = joblib.load("lowprice_model.pkl")
 close_best_model = joblib.load("closeprice_model.pkl")
